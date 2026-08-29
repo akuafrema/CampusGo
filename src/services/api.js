@@ -4,7 +4,7 @@ import { API_URL, STORAGE_KEYS } from "../utils/constants";
 
 // Create axios instance
 const api = axios.create({
-  baseURL: API_URL || "https://campusgo-backend-1.onrender.com/api",
+  baseURL: API_URL || "http://localhost:8080/api",
   timeout: 30000, // 30 seconds
 });
 
